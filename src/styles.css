@@ -1,1 +1,13 @@
-/* Add application styles & imports to this file! */
+* {
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  margin: 2em;
+}
