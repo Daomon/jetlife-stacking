@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   name = 'Angular ' + VERSION.major;
 
   ngOnInit() {
-    particlesJS.load('particles-js', '../assets/particles.json', function() {
+    particlesJS.load('particles-js', '/assets/particles.json', function() {
       console.log('callback - particles.js config loaded');
     });
   }
