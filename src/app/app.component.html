@@ -1,59 +1,59 @@
 <header>
-  <div id="particles-js"></div>
-  <div class="navbar">
-  <section class="navbar-section">
-    <a href="..." class="navbar-brand mr-2">
-      <img src="https://images2.imgbox.com/ee/08/HK6HyVRD_o.png" style="vertical-align: middle;"/>
-      <span class="f-40 fw-600 text-light" style="vertical-align: middle; margin-left: 0.33em;">Jetlife Stacking</span>
-    </a>
-  </section>
-  <section class="navbar-section">
-    <ul class="menu menu-text-style">
-      <li class="menu-item active">
-        <a href="..." class="btn btn-link text-right f-40 fw-600">Home</a>
-      </li>
-      <li class="menu-item">    
-        <a href="..." class="btn btn-link text-right f-40 fw-600 mt-2">Pools</a>
-      </li>
-      <li class="menu-item">
-        <a href="..." class="btn btn-link text-right f-40 fw-600 mt-2">Contact</a>
-      </li>
-    </ul>
-  </section>
+  <canvas id="background"></canvas>
+  <div class="navbar" style="z-index: 2;">
+    <section class="navbar-section" style="position: relative;">
+      <a href="..." class="navbar-brand mr-2">
+        <img src="https://images2.imgbox.com/ee/08/HK6HyVRD_o.png" style="vertical-align: middle;"/>
+        <span class="f-40 fw-600 text-light" style="vertical-align: middle; margin-left: 0.33em;">Jetlife Stacking</span>
+      </a>
+    </section>
+    <section class="navbar-section">
+      <ul class="menu menu-text-style">
+        <li class="menu-item active">
+          <a href="..." class="btn btn-link text-right f-40 fw-600">Home</a>
+        </li>
+        <li class="menu-item">    
+          <a href="..." class="btn btn-link text-right f-40 fw-600 mt-2">Pools</a>
+        </li>
+        <li class="menu-item">
+          <a href="..." class="btn btn-link text-right f-40 fw-600 mt-2">Contact</a>
+        </li>
+      </ul>
+    </section>
   </div>
-  <div class="banner">
+  <div class="banner p-relative" style="z-index: 1;">
     <img class="p-centered img-responsive" style="margin-top: -200px;" src="https://images2.imgbox.com/d7/6c/G9NekjJg_o.png" />
     <div class="p-centered">
       <h1 class="text-center f-40 text-light">High performance validators</h1>
     </div>
   </div>
-  <div class="banner-divider"></div>
+  <div class="banner-divider p-relative" style="z-index: 1"></div>
 </header>
 <body>
   <div class="container">
-    <div class="columns">
-      <div class="column col-4">
+    <div class="columns same-height-wrapp">
+      <div class="column col-4 p-relative">
         <h2 class="f-36 fw-600 text-light">High uptime</h2>
         <div class="card">
-          <div class="card-body">
+          <div class="card-footer">
             <p class="nunito">All our validators are hosted in a top tier
             datacenter and monitored 24/7.</p>            
           </div>
         </div>
       </div>
-      <div class="column col-4">
+      <div class="column col-4 p-relative">
         <h2 class="f-36 fw-600 text-light">Experienced team</h2>
         <div class="card">
-          <div class="card-body">
+          <div class="card-footer">
             <p class="nunito">Veteran team with 8 years+ of blockchain
             hosting experience.</p>            
           </div>
         </div>
       </div>
-      <div class="column col-4">
+      <div class="column col-4 p-relative">
         <h2 class="f-36 fw-600 text-light">Slashing protection</h2>
         <div class="card">
-          <div class="card-body">
+          <div class="card-footer">
             <p class="nunito">We offer slashing protection and refund
             the downtime slashing.</p>            
           </div>
@@ -65,95 +65,95 @@
     <h2 class="f-36 fw-600 text-light">Stake now on</h2>
     <div class="columns">
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/ff/df/HPQ5eDmt_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Akash Network</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/04/10/OlXVu4Da_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Mina Protocol</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/5d/31/YpomZ2On_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Meteor</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/7a/01/HtVp5ljR_o.png" class="img-responsive">
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/ed/81/STUtZNhl_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Bitsong</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/2c/54/ZVzUMjxM_o.png" class="img-responsive">
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/85/f2/5FnmpNeJ_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Lum network</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/b3/0b/NYSN30YU_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Nym</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/c9/be/Fjb7Aht3_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>Suterusu</span>            
           </div>
         </div>
       </div>
       <div class="column col-3">
-        <div class="card">
+        <div class="card card-stake">
           <div class="card-image p-centered mt-2">
             <img src="https://images2.imgbox.com/93/ea/a8pjOu3b_o.png" class="img-responsive">
           </div>
-          <div class="card-body text-center">
+          <div class="card-footer text-center">
             <span>xx.network</span>            
           </div>
         </div>

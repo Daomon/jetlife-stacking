@@ -1,6 +1,5 @@
 import { Component, OnInit, VERSION } from '@angular/core';
-import 'particles.js/particles';
-const particlesJS = (<any>window).particlesJS;
+import Particles from 'particlesjs';
 
 @Component({
   selector: 'my-app',
@@ -11,8 +10,20 @@ export class AppComponent implements OnInit {
   name = 'Angular ' + VERSION.major;
 
   ngOnInit() {
-    particlesJS.load('particles-js', '/assets/particles.json', function() {
-      console.log('callback - particles.js config loaded');
-    });
+    Particles.init({
+      selector: '#background',
+      maxParticles:150,
+      color: '#464386',
+      connectParticles: true,
+    // options for breakpoints
+      responsive: [
+        {
+          breakpoint: 320,
+          options: {
+            maxParticles: 75 // disables particles.js
+          }
+        }
+      ]
+    }); 
   }
 }
